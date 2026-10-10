@@ -1,0 +1,48 @@
+{
+  "experiment": "stage10_cifar10_early_replication",
+  "project_root": "${PROJECT_ROOT}",
+  "base_config": "vendor/FLPoison/configs/stage10_cifar10_simplecnn.yaml",
+  "dataset": "CIFAR10",
+  "model": "simplecnn",
+  "algorithm": "FedSGD",
+  "rounds": 60,
+  "num_clients": 50,
+  "attack": "NoAttack",
+  "system_condition": "heterogeneous",
+  "system_profile": "four_tier",
+  "train_seeds": [2026, 2027, 2028],
+  "system_seeds": [91001, 91002, 91003],
+  "data_condition": {
+    "name": "a05",
+    "partition": "dirichlet",
+    "distribution": "non-iid",
+    "dirichlet_alpha": 0.5
+  },
+  "distance_controls": [
+    {"name": "multikrum", "distance": "euclidean", "aggregator": "MultiKrum"},
+    {"name": "multikrum_normalized", "distance": "normalized_euclidean", "aggregator": "MultiKrumNormalized"},
+    {"name": "multikrum_cosine", "distance": "cosine", "aggregator": "MultiKrumCosine"}
+  ],
+  "defense_params": {
+    "avg_percentage": 0.76,
+    "enable_check": false,
+    "num_score_neighbors": 39
+  },
+  "windows": {
+    "warmup_excluded": [0, 1],
+    "primary_early": [2, 29],
+    "secondary_later": [30, 59]
+  },
+  "gates": {
+    "minimum_last10_accuracy": 0.15,
+    "minimum_last10_minus_first10_accuracy": 0.03,
+    "minimum_crossed_euclidean_disparity_pp": 5.0,
+    "require_positive_euclidean_each_system_seed": true,
+    "require_negative_both_control_contrasts_each_system_seed": true,
+    "required_cells": 27
+  },
+  "paths": {
+    "manifest": "results/manifests/stage10_cifar10_early_replication.csv",
+    "result_root": "results/raw/stage10_cifar10_early_replication"
+  }
+}

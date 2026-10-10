@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "manuscript": "${PROJECT_ROOT}\\manuscript\\manuscript_stage10_candidate.md",
+  "abstract_words_without_stage10": 176,
+  "stage9_numeric_claims_verified": true,
+  "citation_sets_match": true,
+  "figure_paths_and_crossed_matrix_provenance_verified": true,
+  "distance_and_cardinality_conventions_verified": true,
+  "all_27_training_hyperparameter_configs_verified": true,
+  "stage10_state": "pass",
+  "stage10_placeholders_required": false
+}

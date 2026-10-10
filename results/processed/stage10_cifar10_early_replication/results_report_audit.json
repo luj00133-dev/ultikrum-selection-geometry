@@ -1,0 +1,36 @@
+{
+  "status": "rendered",
+  "terminal_state": "pass",
+  "inputs": {
+    "analysis": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\analysis.json",
+      "sha256": "a708c2da28afa06590ef5264375838e052918d87a3bec7529580bdb31737e3b2"
+    },
+    "independent": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\independent_verification.json",
+      "sha256": "3357ef0161525edc1c5f98b3950751420bd90e66c566adb7e4183638652c8b7f"
+    },
+    "semantic": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\semantic_verification.json",
+      "sha256": "0c557e598e3452b13fd2adcb5adf74ac9cecb3849d40a9da256da2a853e038b5"
+    },
+    "manifest": {
+      "path": "${PROJECT_ROOT}\\results\\manifests\\stage10_cifar10_early_replication.csv",
+      "sha256": "bcfa8cc9204d537756dbddb25fb8feaf48154d707f06f8f256b1f92d11724f8a"
+    },
+    "system_seed_margins": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\system_seed_margins.csv",
+      "sha256": "2f518ac45f0612da4834834b366aef73359633a00a35534147d4a16152205db7"
+    },
+    "control_system_seed_margins": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\control_system_seed_margins.csv",
+      "sha256": "f32abe15fef29bccd744047bdbd6d05ae068412497015f84110fda81a1b65ff0"
+    },
+    "learning_gates": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\learning_gates.csv",
+      "sha256": "3bcf5ea98d7f5465821e492ca58657bec0e7e3a5151a477a64028eaab67f2e71"
+    }
+  },
+  "output": "${PROJECT_ROOT}\\docs\\stage10_cifar10_early_replication_results.md",
+  "output_sha256": "db415f85db5511c2ee0b8853a0ce11b5fc0fb878bb83222b7e111d3ba8790295"
+}

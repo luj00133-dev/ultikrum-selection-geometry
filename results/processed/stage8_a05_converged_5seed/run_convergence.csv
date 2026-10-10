@@ -1,0 +1,16 @@
+run_id,seed,aggregator,distance,final_accuracy,terminal_slope,convergence_pass
+stage8_a05_r300_multikrum_s2026,2026,MultiKrum,euclidean,0.7596,0.0004393805522208867,True
+stage8_a05_r300_multikrum_normalized_s2026,2026,MultiKrumNormalized,normalized_euclidean,0.6986,6.60408163265289e-05,True
+stage8_a05_r300_multikrum_cosine_s2026,2026,MultiKrumCosine,cosine,0.7198,0.00037016086434573525,True
+stage8_a05_r300_multikrum_s2027,2027,MultiKrum,euclidean,0.7501,0.00025519327731092414,True
+stage8_a05_r300_multikrum_normalized_s2027,2027,MultiKrumNormalized,normalized_euclidean,0.7147,0.0003953325330132026,True
+stage8_a05_r300_multikrum_cosine_s2027,2027,MultiKrumCosine,cosine,0.717,0.0004637358943577431,True
+stage8_a05_r300_multikrum_s2028,2028,MultiKrum,euclidean,0.7062,0.0003556830732292919,True
+stage8_a05_r300_multikrum_normalized_s2028,2028,MultiKrumNormalized,normalized_euclidean,0.7182,0.001030684273709481,True
+stage8_a05_r300_multikrum_cosine_s2028,2028,MultiKrumCosine,cosine,0.7324,0.00098723649459784,True
+stage8_a05_r300_multikrum_s2029,2029,MultiKrum,euclidean,0.7359,-0.0005628235294117661,True
+stage8_a05_r300_multikrum_normalized_s2029,2029,MultiKrumNormalized,normalized_euclidean,0.7063,0.0001318319327731082,True
+stage8_a05_r300_multikrum_cosine_s2029,2029,MultiKrumCosine,cosine,0.7151,0.0005000768307322913,True
+stage8_a05_r300_multikrum_s2030,2030,MultiKrum,euclidean,0.7459,0.0005188283313325308,True
+stage8_a05_r300_multikrum_normalized_s2030,2030,MultiKrumNormalized,normalized_euclidean,0.7361,0.0009957551020408142,True
+stage8_a05_r300_multikrum_cosine_s2030,2030,MultiKrumCosine,cosine,0.7347,0.0011199615846338542,True

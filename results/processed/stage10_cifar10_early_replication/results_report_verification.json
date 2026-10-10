@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "terminal_state": "pass",
+  "verified_report_sha256": "db415f85db5511c2ee0b8853a0ce11b5fc0fb878bb83222b7e111d3ba8790295",
+  "verified_input_count": 7,
+  "invalid_branch_effect_values_suppressed": true
+}

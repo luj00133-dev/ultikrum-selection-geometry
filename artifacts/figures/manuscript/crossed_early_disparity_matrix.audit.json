@@ -1,0 +1,22 @@
+{
+  "status": "rendered",
+  "source": "${PROJECT_ROOT}\\results\\processed\\stage9_system_seed_converged\\crossed_disparities.csv",
+  "source_sha256": "ca057ecd2bc248d66824e7e9c82d3d908ab57ddedce33f025f46e0d70a530bf2",
+  "window": "2-29",
+  "cells": 27,
+  "color_limit_pp": 40.0,
+  "outputs": {
+    "png": {
+      "path": "${PROJECT_ROOT}\\artifacts\\figures\\manuscript\\crossed_early_disparity_matrix.png",
+      "sha256": "d7b9bba7abef2babb6167b43be9fb05b2b583f0229c4b2ff905a09ed83b77f07"
+    },
+    "pdf": {
+      "path": "${PROJECT_ROOT}\\artifacts\\figures\\manuscript\\crossed_early_disparity_matrix.pdf",
+      "sha256": "7261e4a1f3b6c75b5f707f62f1716a3d95af2ca2821b3010df11f61a7786c567"
+    },
+    "svg": {
+      "path": "${PROJECT_ROOT}\\artifacts\\figures\\manuscript\\crossed_early_disparity_matrix.svg",
+      "sha256": "395c1288137ce4258cf7d8df34216004e0b67d3e7aed71edff0270686ffac7d5"
+    }
+  }
+}

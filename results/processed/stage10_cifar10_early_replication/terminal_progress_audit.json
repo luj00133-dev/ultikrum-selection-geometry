@@ -1,0 +1,556 @@
+{
+  "status": "complete",
+  "audited_at_utc": "2026-08-29T16:38:50.541767+00:00",
+  "manifest": "${PROJECT_ROOT}\\results\\manifests\\stage10_cifar10_early_replication.csv",
+  "manifest_sha256": "bcfa8cc9204d537756dbddb25fb8feaf48154d707f06f8f256b1f92d11724f8a",
+  "counts": {
+    "complete": 27,
+    "partial": 0,
+    "missing": 0,
+    "invalid": 0
+  },
+  "invalid_cells": [],
+  "failed_learning_cells": [],
+  "cells": [
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2026_sys91001",
+      "train_seed": 2026,
+      "system_seed": 91001,
+      "distance": "euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.11499,
+      "last10_accuracy": 0.30774,
+      "accuracy_gain": 0.19275000000000003,
+      "learning_pass": true,
+      "sha256": {
+        "output": "1cced53800e10996239687aee7f555f2f9d1ec9f383b3bbde19fc6574c21443a",
+        "system_log": "acdbbe1f86a5733b8e16238d7f3ce734d5582557ba8fdbbf7c64054384c28b2c",
+        "resolved_config": "972a8bc2496a8b76c1b0ed371df16928d51780f94fcd380bbbca305bf3d5984b"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2026_sys91001",
+      "train_seed": 2026,
+      "system_seed": 91001,
+      "distance": "normalized_euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12351000000000001,
+      "last10_accuracy": 0.2008,
+      "accuracy_gain": 0.07729,
+      "learning_pass": true,
+      "sha256": {
+        "output": "535a936f740f3f293135506b3726b658a92bba00b26773ac59139b93495f26f7",
+        "system_log": "f52b6279c558bbacc4d289e46c7e40af4faf0003f078ecfdf4701a181ed155d5",
+        "resolved_config": "276f9b4383cf45eb3d3736a9619c9433d3ab31b913f22da8b86b74cf8e38c753"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2026_sys91001",
+      "train_seed": 2026,
+      "system_seed": 91001,
+      "distance": "cosine",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.1248,
+      "last10_accuracy": 0.20661000000000002,
+      "accuracy_gain": 0.08181000000000002,
+      "learning_pass": true,
+      "sha256": {
+        "output": "56bc20556f9719113ca5f31ef6a4458241c39479ad5b66325d21d2296af52dac",
+        "system_log": "3e389d5111de9e7b7aeedec2c34f90c2c394692d876569f2e3f615d19e9876b0",
+        "resolved_config": "2a7ee68ef449854bf4267ba0d7bf9b97b28cfa6f307f8783272cd10189b70ab4"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2026_sys91002",
+      "train_seed": 2026,
+      "system_seed": 91002,
+      "distance": "euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.10604,
+      "last10_accuracy": 0.27693,
+      "accuracy_gain": 0.17089000000000001,
+      "learning_pass": true,
+      "sha256": {
+        "output": "5e2f0aeb9a314504f6a9238603f06f01474cc686deb121e50fcce55aa8833a4d",
+        "system_log": "6a1553420190a368cc4b87e0917f73b42f7843f8a94d51a32f51deb095c56e5b",
+        "resolved_config": "fb71cf57a4ead0fc8919c609feb4d4b8b4669d6b2c79040ed5604c2c32881101"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2026_sys91002",
+      "train_seed": 2026,
+      "system_seed": 91002,
+      "distance": "normalized_euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12655,
+      "last10_accuracy": 0.19726,
+      "accuracy_gain": 0.07071,
+      "learning_pass": true,
+      "sha256": {
+        "output": "09278b13037af2fe052479b908a923bb4015e7d02c7154fd90aad373c01cbbb8",
+        "system_log": "2bcb32c47492f35534e4d70deb00da4331e10cc9268b01e8918495905af0e6e4",
+        "resolved_config": "929d2c5978a0a926acd8db724b136a4835e1a177da3cfe2fc6fcbc7c294c1db7"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2026_sys91002",
+      "train_seed": 2026,
+      "system_seed": 91002,
+      "distance": "cosine",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12719,
+      "last10_accuracy": 0.21095999999999998,
+      "accuracy_gain": 0.08376999999999998,
+      "learning_pass": true,
+      "sha256": {
+        "output": "d48033a74b9e5fb3688e4f7a1b89aef20cb9e5d38419e7b51ff7b164b9dcf331",
+        "system_log": "db1b973f178d7fccf25557054cd017af2c91d6d66a077cac9c0adc887a9ddd86",
+        "resolved_config": "8fb2f73b66e7b6c2b97ef69ba94d0206378e213a89ec896dfd0133216c381181"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2026_sys91003",
+      "train_seed": 2026,
+      "system_seed": 91003,
+      "distance": "euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.1052,
+      "last10_accuracy": 0.28923,
+      "accuracy_gain": 0.18402999999999997,
+      "learning_pass": true,
+      "sha256": {
+        "output": "38812ca0c38a612a3c9b0706b4356319f48f55f4df3ab377e766652b8d1a333d",
+        "system_log": "b16d4351f9252d7bd538a4018c5b1822cf6fab004f31cc2f1bc425924b0d886c",
+        "resolved_config": "ce67e4a91a20072c59acb0b7033aecb3097e9a275d24ccf41196f37958911f11"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2026_sys91003",
+      "train_seed": 2026,
+      "system_seed": 91003,
+      "distance": "normalized_euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12686,
+      "last10_accuracy": 0.20369,
+      "accuracy_gain": 0.07683000000000001,
+      "learning_pass": true,
+      "sha256": {
+        "output": "fa904ee3e97c128586b32f0dd4bcb77f360f8c6669929fa46cb3dc30de96ff1f",
+        "system_log": "4f7dfb7891cbfd5bb07b428a3bd663ca3f0bbcd298d9aa2a1b1e1f22b02b0021",
+        "resolved_config": "b662d6eadce67a52d195e43171a664e1de6a3770d04a74cddfd8d0c83f4c7e90"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2026_sys91003",
+      "train_seed": 2026,
+      "system_seed": 91003,
+      "distance": "cosine",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12883,
+      "last10_accuracy": 0.20851999999999998,
+      "accuracy_gain": 0.07968999999999998,
+      "learning_pass": true,
+      "sha256": {
+        "output": "2694ff63c1489ad93cd1e555dd4f1aaf3b4af402ad3063cb4b9a1288fc417915",
+        "system_log": "e3bda878c38c28e68c6dbadb81c08bef4a95b29d6bc5f42d975fcf87e82dcf40",
+        "resolved_config": "14a2dcac0900cd2740bfba9363769ffc68328cc447280b60d27ccf348595d573"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2027_sys91001",
+      "train_seed": 2027,
+      "system_seed": 91001,
+      "distance": "euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.11195999999999999,
+      "last10_accuracy": 0.31426,
+      "accuracy_gain": 0.20229999999999998,
+      "learning_pass": true,
+      "sha256": {
+        "output": "81473eff2411827a8d1f6251a857299542f6962514917a1be1d9284a9d2d35cd",
+        "system_log": "d77378bf8f7ab5d241de9f9a6c4fed39324beb9650136f7ce0b78d78b9e69b02",
+        "resolved_config": "97b597cac8a0707d365f7396bbfdcc046b8b84c784fe028af567c61321596b93"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2027_sys91001",
+      "train_seed": 2027,
+      "system_seed": 91001,
+      "distance": "normalized_euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.11339999999999999,
+      "last10_accuracy": 0.23033,
+      "accuracy_gain": 0.11693000000000002,
+      "learning_pass": true,
+      "sha256": {
+        "output": "ef19f5895f208188da2d9ec26aa67c4bad97f9cc1dcbe8e0acc3cdecdf2d5bcf",
+        "system_log": "4d073a08bc670222ad7647f45aa03cbe27e19812bee60144f91416d52a0cec55",
+        "resolved_config": "deb74512cf9ab8ac2c943069bffac5a9a7eac5d135062fdd1933112cc4ba49df"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2027_sys91001",
+      "train_seed": 2027,
+      "system_seed": 91001,
+      "distance": "cosine",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12082999999999999,
+      "last10_accuracy": 0.22765,
+      "accuracy_gain": 0.10682,
+      "learning_pass": true,
+      "sha256": {
+        "output": "ba606c6660b901aa1c8da468c232643c3647fb05c1e8c4fd3068400278d1e3f3",
+        "system_log": "ef98bc61de137e08021afe2fadac38be16df23c78dfebc9c3f6ad75fa7f74963",
+        "resolved_config": "7ced68e7ca566bb498585e8bc85f9d6f50b03b0f6446dc00bac973452745897f"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2027_sys91002",
+      "train_seed": 2027,
+      "system_seed": 91002,
+      "distance": "euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12274,
+      "last10_accuracy": 0.31544,
+      "accuracy_gain": 0.19269999999999998,
+      "learning_pass": true,
+      "sha256": {
+        "output": "5960f73b661f34a7325e057df1eda2ef0d53d91026f6e1ba590d120ea617c0fe",
+        "system_log": "b2b17eda94c0a1b5f06f2b2aa671e9b25cbb3ca718fa0dc11655e3e20b9ace12",
+        "resolved_config": "7818135a3dd43464186c11b5e0d3ded8cb887b5792b4ec60b8cd2ca3104a20a3"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2027_sys91002",
+      "train_seed": 2027,
+      "system_seed": 91002,
+      "distance": "normalized_euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.10791999999999999,
+      "last10_accuracy": 0.24262999999999998,
+      "accuracy_gain": 0.13471,
+      "learning_pass": true,
+      "sha256": {
+        "output": "d6b5802369e9d06f96042ae14f33a8f183bc1d9164afe707bb30d4d7b6ba8ea6",
+        "system_log": "a2b451b2603ded14853a491a4b24b4ff7b751c20daf428ad827558b64cdf83f1",
+        "resolved_config": "335ce65dd439dc5d308c01562e80a9114bb7ff72776bff2e679eb051f768622c"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2027_sys91002",
+      "train_seed": 2027,
+      "system_seed": 91002,
+      "distance": "cosine",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12546,
+      "last10_accuracy": 0.20888,
+      "accuracy_gain": 0.08342000000000002,
+      "learning_pass": true,
+      "sha256": {
+        "output": "bd8641147e34fe40827f41c3dd51a659ec9e24b17fed585566fbdf6b7c6ecec3",
+        "system_log": "fcdbb683e67c00531f5e48ebabb215d3eeca27d3e75bf7b0679b1212c3607f0f",
+        "resolved_config": "e81fd232fc52b3f46ada9503ac721554eb97c1a84675b04d0395f74e6fc02144"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2027_sys91003",
+      "train_seed": 2027,
+      "system_seed": 91003,
+      "distance": "euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.11034,
+      "last10_accuracy": 0.31457999999999997,
+      "accuracy_gain": 0.20423999999999998,
+      "learning_pass": true,
+      "sha256": {
+        "output": "46dc6fbe652b2807ca9cef464e74056eb01202018577a2af9eb1e625dc09cb02",
+        "system_log": "72dcc3894991a5364780142e6bface67b64051503f0f259b4e3eaaf49808b8f4",
+        "resolved_config": "5a034e415ebeec083a31a760e3147f1cb033c5805fdff23cdbd8f2dfd3a52f7d"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2027_sys91003",
+      "train_seed": 2027,
+      "system_seed": 91003,
+      "distance": "normalized_euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.11338,
+      "last10_accuracy": 0.22526000000000002,
+      "accuracy_gain": 0.11188000000000002,
+      "learning_pass": true,
+      "sha256": {
+        "output": "60b54a7e562178299828c18e31389ad3bafc8531651a01af902dfe73fc02284d",
+        "system_log": "915f95a779ca34c43021c59391de3b66017457bfdea6da64a75eb1bf39648024",
+        "resolved_config": "fcba3ee6803e1aa2410d3539c8c5b0063bc66706455d925924aee588496d1456"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2027_sys91003",
+      "train_seed": 2027,
+      "system_seed": 91003,
+      "distance": "cosine",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.11699999999999999,
+      "last10_accuracy": 0.23919,
+      "accuracy_gain": 0.12219000000000002,
+      "learning_pass": true,
+      "sha256": {
+        "output": "38c4de464907ad863e8c46cdd9323e9f140413beaee3f8bd3d45ecd8550c7d6f",
+        "system_log": "78fd87f5ac48649de79528a0f3a39fdec011f7e9eb5a1a34ce017e06ffeb32c0",
+        "resolved_config": "5c5f6b9a70b444ba97d62cd58233c2d2c439d7cc301acffdaf694e2d14ba77ad"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2028_sys91001",
+      "train_seed": 2028,
+      "system_seed": 91001,
+      "distance": "euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.13313999999999998,
+      "last10_accuracy": 0.29309,
+      "accuracy_gain": 0.15995000000000004,
+      "learning_pass": true,
+      "sha256": {
+        "output": "1d1933904bde45180d729c26aa0830fa10185032032f8699cd6225a58705db60",
+        "system_log": "58916a0541cfe555dbee334ab3fa0e65582e09972b611231f26b5cda749ee79d",
+        "resolved_config": "10c476c1c0c34337f597be3a65e72e240b4d24275d02cd26d53dcdc148b45e6e"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2028_sys91001",
+      "train_seed": 2028,
+      "system_seed": 91001,
+      "distance": "normalized_euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12310000000000001,
+      "last10_accuracy": 0.25156999999999996,
+      "accuracy_gain": 0.12846999999999995,
+      "learning_pass": true,
+      "sha256": {
+        "output": "9b2cea5af2a11854c0d07298919757dbd83f8f3cb6e337b8c92e65531c7e31ac",
+        "system_log": "976afb13beeb662fadc2c1d22764bebfff5b92c5981f4bc9dfc9b4064e03da90",
+        "resolved_config": "3418dc6558252e0c2bca512114dee50c9372be83bf156d6d6977b2c877a2d0a3"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2028_sys91001",
+      "train_seed": 2028,
+      "system_seed": 91001,
+      "distance": "cosine",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12594,
+      "last10_accuracy": 0.23037000000000002,
+      "accuracy_gain": 0.10443000000000002,
+      "learning_pass": true,
+      "sha256": {
+        "output": "b8c198927d2037c481115f47a132aed8b85bcb91fbfcbaad071f73c77b53d149",
+        "system_log": "40dd505efea0535c6a83464f875ee4c35dd79b5ff920eb3a50e8dbcfb292c09d",
+        "resolved_config": "df549b650e86b9d92b643b35c06be95a4b93d815e15db9246beaf51d7cf4e64f"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2028_sys91002",
+      "train_seed": 2028,
+      "system_seed": 91002,
+      "distance": "euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12082999999999999,
+      "last10_accuracy": 0.277,
+      "accuracy_gain": 0.15617000000000003,
+      "learning_pass": true,
+      "sha256": {
+        "output": "abf166bc8f76567a7a6007aee9a6dee3d442e2aec8b814a26d0b6677c78c6722",
+        "system_log": "328fe7a79fd3b266914d3f429a0493cc31b33b5c70562827c7ef2c87c058f810",
+        "resolved_config": "e3682e255865ed6e9d4fe30e17b6ac37dd26e3ca1b14fa0ed9fe65866adce271"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2028_sys91002",
+      "train_seed": 2028,
+      "system_seed": 91002,
+      "distance": "normalized_euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12249000000000002,
+      "last10_accuracy": 0.23131,
+      "accuracy_gain": 0.10881999999999997,
+      "learning_pass": true,
+      "sha256": {
+        "output": "5e59252698d3063cac646b81a47ff659c93180918d1da4f9843898127b2f949b",
+        "system_log": "ccb71d82a000b29eef4ccf32bb4842f236fd1c68d40413710d9067d2724c3cf6",
+        "resolved_config": "36b1f1abe68e388208cc1c5eb64592a6123d1428a3b3a7e85c6523ce392760e9"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2028_sys91002",
+      "train_seed": 2028,
+      "system_seed": 91002,
+      "distance": "cosine",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12547,
+      "last10_accuracy": 0.23332999999999998,
+      "accuracy_gain": 0.10785999999999998,
+      "learning_pass": true,
+      "sha256": {
+        "output": "e84443b0406f2eebf3f3a9b392a9f3b79a2eb480abbd178dbadb6522fd9296cf",
+        "system_log": "a757072460ccadabf19836449af2059859192bef368e7cf23da54ae800552f0c",
+        "resolved_config": "7d32349f1f5eb19ff8479469a79bf9c79315af58e5b7e18ee4557eb9ba354659"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2028_sys91003",
+      "train_seed": 2028,
+      "system_seed": 91003,
+      "distance": "euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12183,
+      "last10_accuracy": 0.30299,
+      "accuracy_gain": 0.18116,
+      "learning_pass": true,
+      "sha256": {
+        "output": "90ce472631b0f5b37215829b39513b9ab159ac4800ea99f1dfa6413eb7a9f678",
+        "system_log": "fc16d6b479ae8f51a9207b6adfb1b7206f788d0251a8f2fab05850bd06bf565b",
+        "resolved_config": "7ec5d9f4eb34b684a3520af5831baa7244e0adfd837e4af04a932476b8015f22"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2028_sys91003",
+      "train_seed": 2028,
+      "system_seed": 91003,
+      "distance": "normalized_euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12162999999999999,
+      "last10_accuracy": 0.23247,
+      "accuracy_gain": 0.11084000000000002,
+      "learning_pass": true,
+      "sha256": {
+        "output": "b443b1a08d65d550267dbbb4014f63c28904aa8c75183e045f990419345d67eb",
+        "system_log": "03a7dfaa58e3eb876390b436d551cc1776be04a1a5cec66e501fbdd25ca6a979",
+        "resolved_config": "7ed4ecb59df79fed23614c7bb8c120522d6bf02f98793deef41ab19c04610fb4"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2028_sys91003",
+      "train_seed": 2028,
+      "system_seed": 91003,
+      "distance": "cosine",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12366999999999999,
+      "last10_accuracy": 0.23167,
+      "accuracy_gain": 0.108,
+      "learning_pass": true,
+      "sha256": {
+        "output": "0acedd434c01a1a629543e6ac1698591568b66befb5eb296e1ebb912661d30ef",
+        "system_log": "cd07e87756e53ac3813e600113f209e69fe89981aa89255867cf39711589adb4",
+        "resolved_config": "fef4df595e98040fc193a8ecc99d0f1f3b7461a851907e4b5fde28b63ae920c7"
+      }
+    }
+  ]
+}

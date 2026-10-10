@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "cell_bin_rows": 810,
+  "raw_files": 27,
+  "bins_per_cell": 30,
+  "warmup_excluded": [
+    0,
+    1
+  ],
+  "practical_threshold_pp": 5.0,
+  "median_geometry_rho": {
+    "negative_norm_ratio_gap": 0.5099087353420766,
+    "negative_score_gap": 0.6152113004275187
+  }
+}

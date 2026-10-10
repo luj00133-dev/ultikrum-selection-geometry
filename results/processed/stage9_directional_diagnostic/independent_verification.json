@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "verified_cells": 27,
+  "verified_cell_windows": 54,
+  "max_absolute_error": 5.551115123125783e-17,
+  "support_parts": {
+    "euclidean_straggler_shift_negative_each_system_seed": true,
+    "euclidean_effective_cosine_gap_negative_each_system_seed": false,
+    "cosine_selection_disparity_negative_each_system_seed": false
+  },
+  "stable_direction_exclusion_supported": false
+}

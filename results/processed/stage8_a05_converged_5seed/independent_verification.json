@@ -1,0 +1,126 @@
+{
+  "status": "passed",
+  "verified_runs": 15,
+  "findings": [
+    {
+      "run_id": "stage8_a05_r300_multikrum_s2026",
+      "seed": 2026,
+      "distance": "euclidean",
+      "final_accuracy": 0.7596,
+      "late_disparity_pp": 19.600000000000005,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_normalized_s2026",
+      "seed": 2026,
+      "distance": "normalized_euclidean",
+      "final_accuracy": 0.6986,
+      "late_disparity_pp": -5.400000000000005,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_cosine_s2026",
+      "seed": 2026,
+      "distance": "cosine",
+      "final_accuracy": 0.7198,
+      "late_disparity_pp": 1.200000000000001,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_s2027",
+      "seed": 2027,
+      "distance": "euclidean",
+      "final_accuracy": 0.7501,
+      "late_disparity_pp": 43.599999999999994,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_normalized_s2027",
+      "seed": 2027,
+      "distance": "normalized_euclidean",
+      "final_accuracy": 0.7147,
+      "late_disparity_pp": 5.500000000000005,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_cosine_s2027",
+      "seed": 2027,
+      "distance": "cosine",
+      "final_accuracy": 0.717,
+      "late_disparity_pp": 7.000000000000006,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_s2028",
+      "seed": 2028,
+      "distance": "euclidean",
+      "final_accuracy": 0.7062,
+      "late_disparity_pp": 6.2000000000000055,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_normalized_s2028",
+      "seed": 2028,
+      "distance": "normalized_euclidean",
+      "final_accuracy": 0.7182,
+      "late_disparity_pp": 0.9000000000000008,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_cosine_s2028",
+      "seed": 2028,
+      "distance": "cosine",
+      "final_accuracy": 0.7324,
+      "late_disparity_pp": 3.9000000000000035,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_s2029",
+      "seed": 2029,
+      "distance": "euclidean",
+      "final_accuracy": 0.7359,
+      "late_disparity_pp": 5.899999999999994,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_normalized_s2029",
+      "seed": 2029,
+      "distance": "normalized_euclidean",
+      "final_accuracy": 0.7063,
+      "late_disparity_pp": -2.500000000000002,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_cosine_s2029",
+      "seed": 2029,
+      "distance": "cosine",
+      "final_accuracy": 0.7151,
+      "late_disparity_pp": 2.400000000000002,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_s2030",
+      "seed": 2030,
+      "distance": "euclidean",
+      "final_accuracy": 0.7459,
+      "late_disparity_pp": -13.900000000000002,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_normalized_s2030",
+      "seed": 2030,
+      "distance": "normalized_euclidean",
+      "final_accuracy": 0.7361,
+      "late_disparity_pp": -4.299999999999993,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_cosine_s2030",
+      "seed": 2030,
+      "distance": "cosine",
+      "final_accuracy": 0.7347,
+      "late_disparity_pp": -7.099999999999995,
+      "rows": 15000
+    }
+  ]
+}

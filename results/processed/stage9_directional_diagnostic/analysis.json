@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "verified_cells": 27,
+  "cell_window_rows": 54,
+  "binned_rows": 810,
+  "support_parts": {
+    "euclidean_straggler_shift_negative_each_system_seed": true,
+    "euclidean_effective_cosine_gap_negative_each_system_seed": false,
+    "cosine_selection_disparity_negative_each_system_seed": false
+  },
+  "stable_direction_exclusion_supported": false,
+  "median_euclidean_rho": -0.14364256607705714,
+  "claim_action": "downgrade_to_mixed_directional_evidence"
+}

@@ -1,0 +1,155 @@
+{
+  "status": "passed",
+  "verified_runs": 27,
+  "lag_dose_gate_pass": false,
+  "decision": {
+    "2-29": {
+      "euclidean_all_positive": true,
+      "controls_all_negative": [
+        "normalized_euclidean",
+        "cosine"
+      ]
+    },
+    "200-299": {
+      "euclidean_all_positive": false,
+      "controls_all_negative": []
+    }
+  },
+  "findings": [
+    {
+      "run_id": "stage8_a05_r300_multikrum_s2026",
+      "final_accuracy": 0.7596,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_normalized_s2026",
+      "final_accuracy": 0.6986,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_cosine_s2026",
+      "final_accuracy": 0.7198,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_s2027",
+      "final_accuracy": 0.7501,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_normalized_s2027",
+      "final_accuracy": 0.7147,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_cosine_s2027",
+      "final_accuracy": 0.717,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_s2028",
+      "final_accuracy": 0.7062,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_normalized_s2028",
+      "final_accuracy": 0.7182,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage8_a05_r300_multikrum_cosine_s2028",
+      "final_accuracy": 0.7324,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_s2026_sys91002",
+      "final_accuracy": 0.7562,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_normalized_s2026_sys91002",
+      "final_accuracy": 0.7458,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_cosine_s2026_sys91002",
+      "final_accuracy": 0.7233,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_s2026_sys91003",
+      "final_accuracy": 0.7523,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_normalized_s2026_sys91003",
+      "final_accuracy": 0.7133,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_cosine_s2026_sys91003",
+      "final_accuracy": 0.7215,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_s2027_sys91002",
+      "final_accuracy": 0.7883,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_normalized_s2027_sys91002",
+      "final_accuracy": 0.7406,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_cosine_s2027_sys91002",
+      "final_accuracy": 0.7416,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_s2027_sys91003",
+      "final_accuracy": 0.7727,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_normalized_s2027_sys91003",
+      "final_accuracy": 0.7306,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_cosine_s2027_sys91003",
+      "final_accuracy": 0.7266,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_s2028_sys91002",
+      "final_accuracy": 0.7243,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_normalized_s2028_sys91002",
+      "final_accuracy": 0.694,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_cosine_s2028_sys91002",
+      "final_accuracy": 0.7156,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_s2028_sys91003",
+      "final_accuracy": 0.7194,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_normalized_s2028_sys91003",
+      "final_accuracy": 0.7206,
+      "rows": 15000
+    },
+    {
+      "run_id": "stage9_a05_r300_multikrum_cosine_s2028_sys91003",
+      "final_accuracy": 0.7123,
+      "rows": 15000
+    }
+  ]
+}

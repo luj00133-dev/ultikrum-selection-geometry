@@ -1,0 +1,305 @@
+{
+  "status": "running",
+  "audited_at_utc": "2026-08-29T07:30:09.385060+00:00",
+  "manifest": "${PROJECT_ROOT}\\results\\manifests\\stage10_cifar10_early_replication.csv",
+  "manifest_sha256": "bcfa8cc9204d537756dbddb25fb8feaf48154d707f06f8f256b1f92d11724f8a",
+  "counts": {
+    "complete": 4,
+    "partial": 1,
+    "missing": 22,
+    "invalid": 0
+  },
+  "invalid_cells": [],
+  "failed_learning_cells": [],
+  "cells": [
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2026_sys91001",
+      "train_seed": 2026,
+      "system_seed": 91001,
+      "distance": "euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.11499,
+      "last10_accuracy": 0.30774,
+      "accuracy_gain": 0.19275000000000003,
+      "learning_pass": true,
+      "sha256": {
+        "output": "1cced53800e10996239687aee7f555f2f9d1ec9f383b3bbde19fc6574c21443a",
+        "system_log": "acdbbe1f86a5733b8e16238d7f3ce734d5582557ba8fdbbf7c64054384c28b2c",
+        "resolved_config": "972a8bc2496a8b76c1b0ed371df16928d51780f94fcd380bbbca305bf3d5984b"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2026_sys91001",
+      "train_seed": 2026,
+      "system_seed": 91001,
+      "distance": "normalized_euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.12351000000000001,
+      "last10_accuracy": 0.2008,
+      "accuracy_gain": 0.07729,
+      "learning_pass": true,
+      "sha256": {
+        "output": "535a936f740f3f293135506b3726b658a92bba00b26773ac59139b93495f26f7",
+        "system_log": "f52b6279c558bbacc4d289e46c7e40af4faf0003f078ecfdf4701a181ed155d5",
+        "resolved_config": "276f9b4383cf45eb3d3736a9619c9433d3ab31b913f22da8b86b74cf8e38c753"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2026_sys91001",
+      "train_seed": 2026,
+      "system_seed": 91001,
+      "distance": "cosine",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.1248,
+      "last10_accuracy": 0.20661000000000002,
+      "accuracy_gain": 0.08181000000000002,
+      "learning_pass": true,
+      "sha256": {
+        "output": "56bc20556f9719113ca5f31ef6a4458241c39479ad5b66325d21d2296af52dac",
+        "system_log": "3e389d5111de9e7b7aeedec2c34f90c2c394692d876569f2e3f615d19e9876b0",
+        "resolved_config": "2a7ee68ef449854bf4267ba0d7bf9b97b28cfa6f307f8783272cd10189b70ab4"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2026_sys91002",
+      "train_seed": 2026,
+      "system_seed": 91002,
+      "distance": "euclidean",
+      "state": "complete",
+      "last_epoch": 59,
+      "issues": [],
+      "system_rows": 3000,
+      "system_rounds": 60,
+      "first10_accuracy": 0.10604,
+      "last10_accuracy": 0.27693,
+      "accuracy_gain": 0.17089000000000001,
+      "learning_pass": true,
+      "sha256": {
+        "output": "5e2f0aeb9a314504f6a9238603f06f01474cc686deb121e50fcce55aa8833a4d",
+        "system_log": "6a1553420190a368cc4b87e0917f73b42f7843f8a94d51a32f51deb095c56e5b",
+        "resolved_config": "fb71cf57a4ead0fc8919c609feb4d4b8b4669d6b2c79040ed5604c2c32881101"
+      }
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2026_sys91002",
+      "train_seed": 2026,
+      "system_seed": 91002,
+      "distance": "normalized_euclidean",
+      "state": "partial",
+      "last_epoch": 4,
+      "issues": [],
+      "system_rows": 250,
+      "system_rounds": 5
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2026_sys91002",
+      "train_seed": 2026,
+      "system_seed": 91002,
+      "distance": "cosine",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2026_sys91003",
+      "train_seed": 2026,
+      "system_seed": 91003,
+      "distance": "euclidean",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2026_sys91003",
+      "train_seed": 2026,
+      "system_seed": 91003,
+      "distance": "normalized_euclidean",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2026_sys91003",
+      "train_seed": 2026,
+      "system_seed": 91003,
+      "distance": "cosine",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2027_sys91001",
+      "train_seed": 2027,
+      "system_seed": 91001,
+      "distance": "euclidean",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2027_sys91001",
+      "train_seed": 2027,
+      "system_seed": 91001,
+      "distance": "normalized_euclidean",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2027_sys91001",
+      "train_seed": 2027,
+      "system_seed": 91001,
+      "distance": "cosine",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2027_sys91002",
+      "train_seed": 2027,
+      "system_seed": 91002,
+      "distance": "euclidean",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2027_sys91002",
+      "train_seed": 2027,
+      "system_seed": 91002,
+      "distance": "normalized_euclidean",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2027_sys91002",
+      "train_seed": 2027,
+      "system_seed": 91002,
+      "distance": "cosine",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2027_sys91003",
+      "train_seed": 2027,
+      "system_seed": 91003,
+      "distance": "euclidean",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2027_sys91003",
+      "train_seed": 2027,
+      "system_seed": 91003,
+      "distance": "normalized_euclidean",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2027_sys91003",
+      "train_seed": 2027,
+      "system_seed": 91003,
+      "distance": "cosine",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2028_sys91001",
+      "train_seed": 2028,
+      "system_seed": 91001,
+      "distance": "euclidean",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2028_sys91001",
+      "train_seed": 2028,
+      "system_seed": 91001,
+      "distance": "normalized_euclidean",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2028_sys91001",
+      "train_seed": 2028,
+      "system_seed": 91001,
+      "distance": "cosine",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2028_sys91002",
+      "train_seed": 2028,
+      "system_seed": 91002,
+      "distance": "euclidean",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2028_sys91002",
+      "train_seed": 2028,
+      "system_seed": 91002,
+      "distance": "normalized_euclidean",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2028_sys91002",
+      "train_seed": 2028,
+      "system_seed": 91002,
+      "distance": "cosine",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2028_sys91003",
+      "train_seed": 2028,
+      "system_seed": 91003,
+      "distance": "euclidean",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2028_sys91003",
+      "train_seed": 2028,
+      "system_seed": 91003,
+      "distance": "normalized_euclidean",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2028_sys91003",
+      "train_seed": 2028,
+      "system_seed": 91003,
+      "distance": "cosine",
+      "state": "missing",
+      "last_epoch": null,
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "experiment": "stage9_system_seed_converged",
+  "project_root": "${PROJECT_ROOT}",
+  "base_config": "vendor/FLPoison/configs/pilot_smoke_fashion.yaml",
+  "dataset": "FashionMNIST",
+  "model": "lenet",
+  "algorithm": "FedSGD",
+  "rounds": 300,
+  "num_clients": 50,
+  "attack": "NoAttack",
+  "system_condition": "heterogeneous",
+  "system_profile": "four_tier",
+  "train_seeds": [2026, 2027, 2028],
+  "existing_system_seed": 91001,
+  "new_system_seeds": [91002, 91003],
+  "data_condition": {
+    "name": "a05",
+    "partition": "dirichlet",
+    "distribution": "non-iid",
+    "dirichlet_alpha": 0.5
+  },
+  "distance_controls": [
+    {"name": "multikrum", "distance": "euclidean", "aggregator": "MultiKrum"},
+    {"name": "multikrum_normalized", "distance": "normalized_euclidean", "aggregator": "MultiKrumNormalized"},
+    {"name": "multikrum_cosine", "distance": "cosine", "aggregator": "MultiKrumCosine"}
+  ],
+  "defense_params": {
+    "avg_percentage": 0.76,
+    "enable_check": false,
+    "num_score_neighbors": 39
+  },
+  "gates": {
+    "final_accuracy_min": 0.60,
+    "terminal_window_rounds": 50,
+    "terminal_slope_min": -0.0015,
+    "required_new_cells": 18,
+    "required_crossed_cells": 27
+  },
+  "paths": {
+    "manifest": "results/manifests/stage9_system_seed_converged.csv",
+    "result_root": "results/raw/stage9_system_seed_converged",
+    "stage8_manifest": "results/manifests/stage8_a05_converged_5seed.csv",
+    "stage8_result_root": "results/raw/stage8_a05_converged_5seed"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "status": "scientific_closure_generated",
+  "generated_at_utc": "2026-08-29T16:38:55.6377774Z",
+  "manifest_sha256": "bcfa8cc9204d537756dbddb25fb8feaf48154d707f06f8f256b1f92d11724f8a",
+  "complete_cells": 27,
+  "failed_learning_cells": [],
+  "analysis_status": "complete",
+  "transfer_gate_pass": true,
+  "numeric_verification_status": "passed",
+  "semantic_verification_status": "passed",
+  "manuscript_terminal_state": "pass",
+  "files": {
+    "analysis.json": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\analysis.json",
+      "bytes": 937,
+      "sha256": "a708c2da28afa06590ef5264375838e052918d87a3bec7529580bdb31737e3b2"
+    },
+    "scientific_code_verification.json": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\scientific_code_verification.json",
+      "bytes": 230,
+      "sha256": "e072e95cf045783794633f8a8ae49304d2677581999e12852493a59f3ac70f5f"
+    },
+    "independent_verification.json": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\independent_verification.json",
+      "bytes": 413,
+      "sha256": "3357ef0161525edc1c5f98b3950751420bd90e66c566adb7e4183638652c8b7f"
+    },
+    "semantic_verification.json": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\semantic_verification.json",
+      "bytes": 7324,
+      "sha256": "0c557e598e3452b13fd2adcb5adf74ac9cecb3849d40a9da256da2a853e038b5"
+    },
+    "results_report_audit.json": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\results_report_audit.json",
+      "bytes": 1980,
+      "sha256": "c1759fb400990ddee5ad557477d419f083fca3967ea87a2b5f5dd057c5104d21"
+    },
+    "results_report_verification.json": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\results_report_verification.json",
+      "bytes": 234,
+      "sha256": "fe6b3082c7381ea59996f54ad46b82459d4b652f411b88a3bc4140400ef9c166"
+    },
+    "manuscript_insert_audit.json": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\manuscript_insert_audit.json",
+      "bytes": 1773,
+      "sha256": "46d3d1516f302271590cabe743e73b9efbdd042538b910a361198e73626b7ee3"
+    },
+    "manuscript_candidate_audit.json": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\manuscript_candidate_audit.json",
+      "bytes": 1427,
+      "sha256": "c69f17c4e917ae919893281450c7c66242d64548b1155b77e7f5c28606151a76"
+    },
+    "manuscript_candidate_verification.json": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\manuscript_candidate_verification.json",
+      "bytes": 496,
+      "sha256": "17b60554056c50d48a2b2c382df3f4606adf9b546dbe5218b458356cf15cd478"
+    },
+    "raw_sha256.csv": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\raw_sha256.csv",
+      "bytes": 22769,
+      "sha256": "34b870f9f8d4eb4ab03fd207863bcb31c9554cd4df54477716e1f4100c6c623c"
+    }
+  },
+  "next_action": "Review and independently verify the generated manuscript candidate; do not infer author declarations."
+}

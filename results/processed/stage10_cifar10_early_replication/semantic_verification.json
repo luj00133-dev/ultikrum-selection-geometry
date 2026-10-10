@@ -1,0 +1,213 @@
+{
+  "status": "passed",
+  "verified_cells": 27,
+  "verified_rows": 81000,
+  "verified_rounds": 1620,
+  "verified_selected_rows": 61560,
+  "selection_cardinality_per_round": 38,
+  "resource_group_counts": {
+    "strong": 10,
+    "medium": 15,
+    "weak": 15,
+    "straggler": 10
+  },
+  "logical_lag_map": {
+    "strong": 0,
+    "medium": 0,
+    "weak": 1,
+    "straggler": 2
+  },
+  "formal_root": "${PROJECT_ROOT}\\results\\raw\\stage10_cifar10_early_replication",
+  "smoke_excluded": true,
+  "cells": [
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2026_sys91001",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "8164ba4b1dde10bd3fed2f215f1e2cbeacbe467b9130e5b6488207d33c101d23"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2026_sys91001",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "8164ba4b1dde10bd3fed2f215f1e2cbeacbe467b9130e5b6488207d33c101d23"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2026_sys91001",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "8164ba4b1dde10bd3fed2f215f1e2cbeacbe467b9130e5b6488207d33c101d23"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2026_sys91002",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "bdfbd19c2eb5cdc41d5f18fc9da77d76883553f9de88b1974ceb53f2297d45f6"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2026_sys91002",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "bdfbd19c2eb5cdc41d5f18fc9da77d76883553f9de88b1974ceb53f2297d45f6"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2026_sys91002",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "bdfbd19c2eb5cdc41d5f18fc9da77d76883553f9de88b1974ceb53f2297d45f6"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2026_sys91003",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "a88eeb7917d58a15178ca1f120a40bc06120cc8bd97eb6f9802dbc3a8daceb64"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2026_sys91003",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "a88eeb7917d58a15178ca1f120a40bc06120cc8bd97eb6f9802dbc3a8daceb64"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2026_sys91003",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "a88eeb7917d58a15178ca1f120a40bc06120cc8bd97eb6f9802dbc3a8daceb64"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2027_sys91001",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "8164ba4b1dde10bd3fed2f215f1e2cbeacbe467b9130e5b6488207d33c101d23"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2027_sys91001",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "8164ba4b1dde10bd3fed2f215f1e2cbeacbe467b9130e5b6488207d33c101d23"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2027_sys91001",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "8164ba4b1dde10bd3fed2f215f1e2cbeacbe467b9130e5b6488207d33c101d23"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2027_sys91002",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "bdfbd19c2eb5cdc41d5f18fc9da77d76883553f9de88b1974ceb53f2297d45f6"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2027_sys91002",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "bdfbd19c2eb5cdc41d5f18fc9da77d76883553f9de88b1974ceb53f2297d45f6"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2027_sys91002",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "bdfbd19c2eb5cdc41d5f18fc9da77d76883553f9de88b1974ceb53f2297d45f6"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2027_sys91003",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "a88eeb7917d58a15178ca1f120a40bc06120cc8bd97eb6f9802dbc3a8daceb64"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2027_sys91003",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "a88eeb7917d58a15178ca1f120a40bc06120cc8bd97eb6f9802dbc3a8daceb64"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2027_sys91003",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "a88eeb7917d58a15178ca1f120a40bc06120cc8bd97eb6f9802dbc3a8daceb64"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2028_sys91001",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "8164ba4b1dde10bd3fed2f215f1e2cbeacbe467b9130e5b6488207d33c101d23"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2028_sys91001",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "8164ba4b1dde10bd3fed2f215f1e2cbeacbe467b9130e5b6488207d33c101d23"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2028_sys91001",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "8164ba4b1dde10bd3fed2f215f1e2cbeacbe467b9130e5b6488207d33c101d23"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2028_sys91002",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "bdfbd19c2eb5cdc41d5f18fc9da77d76883553f9de88b1974ceb53f2297d45f6"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2028_sys91002",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "bdfbd19c2eb5cdc41d5f18fc9da77d76883553f9de88b1974ceb53f2297d45f6"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2028_sys91002",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "bdfbd19c2eb5cdc41d5f18fc9da77d76883553f9de88b1974ceb53f2297d45f6"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_s2028_sys91003",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "a88eeb7917d58a15178ca1f120a40bc06120cc8bd97eb6f9802dbc3a8daceb64"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_normalized_s2028_sys91003",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "a88eeb7917d58a15178ca1f120a40bc06120cc8bd97eb6f9802dbc3a8daceb64"
+    },
+    {
+      "run_id": "stage10_cifar10_a05_r60_multikrum_cosine_s2028_sys91003",
+      "rows": 3000,
+      "rounds": 60,
+      "selected_rows": 2280,
+      "meta_sha256": "a88eeb7917d58a15178ca1f120a40bc06120cc8bd97eb6f9802dbc3a8daceb64"
+    }
+  ]
+}

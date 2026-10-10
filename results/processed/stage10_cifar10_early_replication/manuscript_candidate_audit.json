@@ -1,0 +1,33 @@
+{
+  "status": "candidate_generated",
+  "terminal_state": "pass",
+  "inputs": {
+    "main_source": {
+      "path": "${PROJECT_ROOT}\\manuscript\\manuscript_v0.md",
+      "sha256": "cd1fa74ca3491cfe5fb57a65e40b1ff41c27028f6c6759c539d2b7640a82d163"
+    },
+    "supplement_source": {
+      "path": "${PROJECT_ROOT}\\manuscript\\supplementary_v0.md",
+      "sha256": "a826944cac9ef08db05399a366b8ad1ceaa51c00ed9f1986092f9f609d837e3d"
+    },
+    "insert": {
+      "path": "${PROJECT_ROOT}\\manuscript\\stage10_verified_insert.md",
+      "sha256": "7a75e96c625dade44df82d90e93bc40d04c91af2af98903be2cf9a5f4ce92e06"
+    },
+    "manuscript_insert_audit": {
+      "path": "${PROJECT_ROOT}\\results\\processed\\stage10_cifar10_early_replication\\manuscript_insert_audit.json",
+      "sha256": "46d3d1516f302271590cabe743e73b9efbdd042538b910a361198e73626b7ee3"
+    }
+  },
+  "outputs": {
+    "main": {
+      "path": "${PROJECT_ROOT}\\manuscript\\manuscript_stage10_candidate.md",
+      "sha256": "b6a26a077fce44c827b083f88ad565b504ab97915e43c7fa2455c33880fe9ecb"
+    },
+    "supplement": {
+      "path": "${PROJECT_ROOT}\\manuscript\\supplementary_stage10_candidate.md",
+      "sha256": "7a476955d4a59f522388f2fe08b475d6187f5c03a6b5343730f73266f6f0035c"
+    }
+  },
+  "author_placeholders_preserved": true
+}

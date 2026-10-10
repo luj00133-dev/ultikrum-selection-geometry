@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "verified_cells": 27,
+  "all_integrity_checks_passed": true,
+  "all_learning_gates_passed": true,
+  "crossed_euclidean_disparity_pp": 14.84126984126984,
+  "euclidean_system_margins_pp": {
+    "91001": 11.190476190476188,
+    "91002": 15.357142857142854,
+    "91003": 17.976190476190474
+  },
+  "control_system_margins_pp": {
+    "normalized_euclidean": {
+      "91001": -1.1904761904761891,
+      "91002": -12.499999999999995,
+      "91003": -21.309523809523803
+    },
+    "cosine": {
+      "91001": -1.666666666666669,
+      "91002": -15.357142857142854,
+      "91003": -17.857142857142858
+    }
+  },
+  "gate_parts": {
+    "all_learning_gates_passed": true,
+    "crossed_euclidean_at_least_5pp": true,
+    "euclidean_positive_each_system_seed": true,
+    "both_controls_negative_each_system_seed": true
+  },
+  "transfer_gate_pass": true,
+  "next_action": "manuscript_assembly"
+}

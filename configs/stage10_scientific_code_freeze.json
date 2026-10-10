@@ -1,0 +1,716 @@
+{
+  "status": "frozen",
+  "created_at_utc": "2026-08-29T12:49:16.253251+00:00",
+  "manifest_sha256": "bcfa8cc9204d537756dbddb25fb8feaf48154d707f06f8f256b1f92d11724f8a",
+  "file_count": 118,
+  "files": [
+    {
+      "path": "configs/stage10_cifar10_early_replication.json",
+      "bytes": 1604,
+      "sha256": "1d5aacdf1414278b6ef3d4dc38a1f0de96728e6f6afc806b5beadcc2f9b5380c",
+      "normalized_text_sha256": "1d5aacdf1414278b6ef3d4dc38a1f0de96728e6f6afc806b5beadcc2f9b5380c"
+    },
+    {
+      "path": "docs/stage10_cifar10_early_replication_protocol.md",
+      "bytes": 5954,
+      "sha256": "c5c98b79435dd131e26c570be59a5bc7f4a0e9ed2c4533a97eb33a2f547dc16d",
+      "normalized_text_sha256": "c5c98b79435dd131e26c570be59a5bc7f4a0e9ed2c4533a97eb33a2f547dc16d"
+    },
+    {
+      "path": "results/manifests/stage10_cifar10_early_replication.csv",
+      "bytes": 24479,
+      "sha256": "bcfa8cc9204d537756dbddb25fb8feaf48154d707f06f8f256b1f92d11724f8a",
+      "normalized_text_sha256": "bcfa8cc9204d537756dbddb25fb8feaf48154d707f06f8f256b1f92d11724f8a"
+    },
+    {
+      "path": "scripts/run_stage10_cifar10_early_replication.ps1",
+      "bytes": 6044,
+      "sha256": "9b737784d616484b87edb8b32fc186918c32afdf333db7f62ebe99baeddac04e",
+      "normalized_text_sha256": "9b737784d616484b87edb8b32fc186918c32afdf333db7f62ebe99baeddac04e"
+    },
+    {
+      "path": "src/analyze_stage10_cifar10.py",
+      "bytes": 12569,
+      "sha256": "b19edfd443655140218e8d28055295dd22e1f826f7640321752e0354139d0381",
+      "normalized_text_sha256": "b19edfd443655140218e8d28055295dd22e1f826f7640321752e0354139d0381"
+    },
+    {
+      "path": "src/audit_stage10_progress.py",
+      "bytes": 5673,
+      "sha256": "5155d68e0b65d1508f08d17e7aeb90ec9846e01267276b60e9b6b3bbdb61e7d6",
+      "normalized_text_sha256": "5155d68e0b65d1508f08d17e7aeb90ec9846e01267276b60e9b6b3bbdb61e7d6"
+    },
+    {
+      "path": "src/verify_stage10_independent.py",
+      "bytes": 6208,
+      "sha256": "0e9e39a164bda781c6a721d00e9d08d8c6524c4cec95c0047aea9392a68d03ad",
+      "normalized_text_sha256": "0e9e39a164bda781c6a721d00e9d08d8c6524c4cec95c0047aea9392a68d03ad"
+    },
+    {
+      "path": "src/verify_stage10_scientific_code_freeze.py",
+      "bytes": 2409,
+      "sha256": "827b341c9410ba6c5e8b5d9c056d97231c7e585a23e97c5f5259d7962d50e4c4",
+      "normalized_text_sha256": "827b341c9410ba6c5e8b5d9c056d97231c7e585a23e97c5f5259d7962d50e4c4"
+    },
+    {
+      "path": "src/verify_stage10_semantics_independent.py",
+      "bytes": 10853,
+      "sha256": "bdea5a77f52f42143e960ea1783d34135e5b2818cc8ee0c38813b0d2df900147",
+      "normalized_text_sha256": "bdea5a77f52f42143e960ea1783d34135e5b2818cc8ee0c38813b0d2df900147"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/FedSign.py",
+      "bytes": 3781,
+      "sha256": "09f2d4ee4b6a9baefaf2ba01393442c47569993823d6f6cff5b6959d1371f705",
+      "normalized_text_sha256": "a117f01854972d6362550e7d32e3e23c3951030b9f7de392e449bd28bc876038"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/__init__.py",
+      "bytes": 424,
+      "sha256": "de216b18ccebaf84ea3c443b1523fb4879759e79eab1b76f9a713fabb3f6ffbe",
+      "normalized_text_sha256": "ba8ea90f6408b07b771c8775e6abac7f670dfbb5aaf1bc604a64d6794072da2e"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/aggregator_utils.py",
+      "bytes": 5768,
+      "sha256": "4155bd2c6c673aa1c852149f98ca054917dd34ee6749a7cace0b8fdb696c3c1a",
+      "normalized_text_sha256": "d2fc6d473219481ac338adabc1937fda8762ee74fddf960ce950a028f5a5793b"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/aggregatorbase.py",
+      "bytes": 1718,
+      "sha256": "44d1369cd8ba5a316b88aa7be8f969d60e23368ce58cf1fba548bf9019404906",
+      "normalized_text_sha256": "db2a254f02ab642715c7573ea2b8dec690b0773f0daf1b9d7f6a5290e4f629e0"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/auror.py",
+      "bytes": 4209,
+      "sha256": "72e59af6d02a0dd93039d2b4a3286e7a1cdf9c9c127184f3db78e39e565175a0",
+      "normalized_text_sha256": "6f7e10aae828d90eeba343679d1d88d69718c693aec0ec119ca18e027ff123e0"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/boba.py",
+      "bytes": 6544,
+      "sha256": "c890e96c7b7faf184902a65e0db25858d53d57abf234e84cc361a2bab7e80dc8",
+      "normalized_text_sha256": "c890e96c7b7faf184902a65e0db25858d53d57abf234e84cc361a2bab7e80dc8"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/bucketing.py",
+      "bytes": 1607,
+      "sha256": "be5f52b5a8abe7cad0e3b613f4684d87afd27981633ccd298e383b5ba279e761",
+      "normalized_text_sha256": "9a426fdcf4fba1cbf8eebc539b0c93f0b5b85ccb667baf39d35412df32676f93"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/bulyan.py",
+      "bytes": 3269,
+      "sha256": "72dc4dc09d9d15d18e841d6097afa2d94e80673d2a273453ef65b7f88f3b48a1",
+      "normalized_text_sha256": "df01a925fb25d3fa8c71c1a4a49bcf5d51c06affbb681c0723cbe4624af786b3"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/centeredclipping.py",
+      "bytes": 1526,
+      "sha256": "509d99b23d43a12c39edb6587815f6b2658ca2abe8d1da8562e880020ef7e749",
+      "normalized_text_sha256": "fceeb3901f9e5627de8fed07aa0c3864a86edbd1e37aa9485dbda04d82802d1b"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/crfl.py",
+      "bytes": 1731,
+      "sha256": "9e2cc9058d03fd12c3fd9367af41eb8b687f652f30b7b42a726b4aefc0f419bd",
+      "normalized_text_sha256": "95a8205be96476f357cc6e33f93ee3b2b999793618f9477e2a896e9d8f4db8d2"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/dara.py",
+      "bytes": 26133,
+      "sha256": "2712f7770820571424b492dcc524e94bdd22803343fd347c83147b4ccfb34000",
+      "normalized_text_sha256": "2712f7770820571424b492dcc524e94bdd22803343fd347c83147b4ccfb34000"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/deepsight.py",
+      "bytes": 9906,
+      "sha256": "0aeaf89c5e7d710d7b1c78deed5c481cf6dab964f3a8ff637c0f81bcd28e950b",
+      "normalized_text_sha256": "520edd1926feb27ae2b8706d66edc39590fa3bcd694ee2bc7de8b399dbfca3a3"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/dnc.py",
+      "bytes": 3116,
+      "sha256": "7f3041baa41c6a23161b005d2bac5f6216927dc046239c68498d24bbb0b04bd8",
+      "normalized_text_sha256": "5efc40e42a31f991a5cb0bdf7b522fffd120deee66209c79eabec4616e9791b4"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/flame.py",
+      "bytes": 4230,
+      "sha256": "ca3159675066bc43a64a9f2bc5a50aeb92e3b201a3dbd4959128727bf6c81f8e",
+      "normalized_text_sha256": "fd86cce3b1513d75d9cf50cec68b49b0f3b8ab035b5ee251f0cc9bda66c034fb"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/fldetector.py",
+      "bytes": 7371,
+      "sha256": "e12946d0426b40807cffa75a9180422f286da489e81e9f626c6cfae960696783",
+      "normalized_text_sha256": "546e15a0ae1b519d6e9032ef2be09aa5f99427166ca1be08fa3e2eb661aae8da"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/fltrust.py",
+      "bytes": 4427,
+      "sha256": "1f4bcbceefc1c553163b6e1dca64f5b9260e9382506cbf6235a3f2aff17afaa1",
+      "normalized_text_sha256": "a6e97f5736647d1234eb865548e69ff6acbf0e137f5f08d7e8ee077c5ffdc124"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/foolsgold.py",
+      "bytes": 4841,
+      "sha256": "e02928619eb8b2d8c62bbab92804ce5f5a74a800c0c86c0d86be623c769dd093",
+      "normalized_text_sha256": "9df7b747a96d3b7013ee4d50394cef38fd4b339b2f62024ef5c72b625e51a792"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/krum.py",
+      "bytes": 2376,
+      "sha256": "50c53fe28650d22d13466e1b0d173bcef1b00745e4f76dec96dff33213d82c6e",
+      "normalized_text_sha256": "95534ebfb1d5957394de77fa4d056ef2f790651d9da289252bf3a5bee851fc2a"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/lasa.py",
+      "bytes": 4975,
+      "sha256": "50114acee4fba10a476490ef4c2720a7096cd46570fb260b95dcce7ec6e20536",
+      "normalized_text_sha256": "34c7913ae74dd5e3b62877aec971d8fd44f5ada327f3530cb24c0cb254b8c300"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/mean.py",
+      "bytes": 336,
+      "sha256": "66901ea977e426ce94958a8a0f319fbe6c41ba08936ce04fc04773c8339bfa64",
+      "normalized_text_sha256": "c1557c2962262da02f5eae3874f8ce806438348ff6c34a8abfe04bed7dc754de"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/median.py",
+      "bytes": 577,
+      "sha256": "645163af9525c237390326ad9c7ca8fb076029709725d4ff976c702e48393935",
+      "normalized_text_sha256": "6cde5e487c29fb03e43187d82ba5b017995c2c7f1e1456dce000650a0e5e90e0"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/multikrum.py",
+      "bytes": 2690,
+      "sha256": "da19ad793be66f1f1b07cef6174d4ace70e560012db85d8129837112adc8975b",
+      "normalized_text_sha256": "f0c34948fa3ee6b31d416b3a377c5629a94b90eeac72712f1d9d98b79fd08ce3"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/normalized_krum.py",
+      "bytes": 2634,
+      "sha256": "b4a32874182fef904ed8b7a0af421e3bc52600e0e4ccf8321e0aa2cc0b0ed863",
+      "normalized_text_sha256": "b4a32874182fef904ed8b7a0af421e3bc52600e0e4ccf8321e0aa2cc0b0ed863"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/normclipping.py",
+      "bytes": 1635,
+      "sha256": "e478a009ecb89f346361608e4a2bbb85e39ccc9084f357500930d30541434114",
+      "normalized_text_sha256": "2defb95893da62ea49da09b441034c571d061e6de0705892619abb2fe7273e6e"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/randomsubset.py",
+      "bytes": 1239,
+      "sha256": "b14976d870c647bd9e6663d2065965fcbd76de5e8e0705ce6eea6772dc9f980f",
+      "normalized_text_sha256": "b14976d870c647bd9e6663d2065965fcbd76de5e8e0705ce6eea6772dc9f980f"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/rfa.py",
+      "bytes": 1559,
+      "sha256": "3261440e410b2df63b06f4a12e98e0d88f6b192b7c02a71a88e034fbdc4f8fd1",
+      "normalized_text_sha256": "afdb83beb57769b8b6a0701706c34c045ea65585f349c8255c7749f7695dd1f0"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/signguard.py",
+      "bytes": 4918,
+      "sha256": "84f464f2182f400cf6bf93020f8edfa2bb9e32c2f6ea920f091a238f9cbda7ae",
+      "normalized_text_sha256": "89a0a493510d07f9e796e72a50f091c89389b32b866317032177aeb4d6078ed2"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/simpleclustering.py",
+      "bytes": 1798,
+      "sha256": "9bd5ac1dc161d676df13b5af174471fd23bbf77d2cd7d07c3a5ed04c9ef097f9",
+      "normalized_text_sha256": "59856600ec66e700b840a0fab91b54781c9863bd1aa115072ece20f975156017"
+    },
+    {
+      "path": "vendor/FLPoison/aggregators/trimmedmean.py",
+      "bytes": 1434,
+      "sha256": "4cf5b816ab624116d753f564068fd894a4ec8a3ee8e6eab835c4f1f21d67bce9",
+      "normalized_text_sha256": "16cad427b6bfafb8bb4dd7bde773a8c2f73f0b571386b6769c902ec6bc5c291b"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/__init__.py",
+      "bytes": 988,
+      "sha256": "1ffb6e9005347f2bade8769c7d8fa193979a75505f8dfd3c930a54a095b7f49e",
+      "normalized_text_sha256": "a27da7c1faf3213b5694e9cd868e763883de204b5ce867510232c7e8b4e1cdcc"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/alie.py",
+      "bytes": 1799,
+      "sha256": "53d22c01072ba2aebafc61d85160052a22f0f3ca43c71c21cc910feff17294b5",
+      "normalized_text_sha256": "206debb7b33cd1e00923fe264b44513c3a4819a79a23a6d988bdd313f382c5ed"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/altermin.py",
+      "bytes": 7210,
+      "sha256": "ac52d90e11163b26f7a3b7ca07ee66c1eacc07fe0ba558a008c9521404ea2854",
+      "normalized_text_sha256": "125109b9422c071a948c9435c0258d154322f61087997ecf46554e795f62edaa"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/badnets.py",
+      "bytes": 3115,
+      "sha256": "1b1abd8a600165bce7fcca2310fd808d4aea1ea689a9fca3de6659ee00fa2b51",
+      "normalized_text_sha256": "f7066166338b0ea64047c68ea723a495d5e5669da1593754012896d7ef1f70f6"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/dba.py",
+      "bytes": 5473,
+      "sha256": "29415e067935d2d656abceb8e9ff975992b74a3cc87c0749f879e955a8989bb7",
+      "normalized_text_sha256": "43cc01fc1b780aac6dde6fd0bf0f1a92f65bedbd420f78aa9780d18d414a5962"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/edgecase.py",
+      "bytes": 5380,
+      "sha256": "b714717ebeacd1ef050f17e6226915bdde25bda9726a30c79e861e53aef48c3f",
+      "normalized_text_sha256": "21e69d9696bf7e0098731dbeb8ed61a23da8c0aacebe0147b9c335140b26da8d"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/fangattack.py",
+      "bytes": 5618,
+      "sha256": "e497d21f1796f1d5ec91761617623366106a0e903c617b6c250619c9b18939e8",
+      "normalized_text_sha256": "8a854cd703767f3f10e89d1f9d5c9cff2afb60090b52315e73a6c7d04f0dea90"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/gaussian.py",
+      "bytes": 980,
+      "sha256": "73c0bd7dfabc7525df8f7adbf43678ba120a4e1e5943bfcc6ae145d8be9fe406",
+      "normalized_text_sha256": "55d04b3ff614d790ac95430189908506deb02eea3a9eb333ed82dd6cf31681ed"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/hidra.py",
+      "bytes": 3346,
+      "sha256": "40326d89906dc0ccedb7f23747eed5432d139081dc0eb26eced2d6a1e90b5734",
+      "normalized_text_sha256": "b88611d5ec4581e75defe283d1e2be3242cec57e85d1693474a2256f2d2bac2d"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/ipm.py",
+      "bytes": 1875,
+      "sha256": "49089f2ac093c9f0d80f319eb575ba4ab1701440e509e193b00b7c4f3970b845",
+      "normalized_text_sha256": "63d76e1a5fd2cba5be8af0fd3287c7dcacbe16297c2a301ff077830f8d8d3d03"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/labelflipping.py",
+      "bytes": 2234,
+      "sha256": "a23107c6f4a46a81cc969d7de5b9b9d411e837ca6eb6def0feb66bd31cd9b13e",
+      "normalized_text_sha256": "cbb68a2fc8e9fa5fa1d8f6c776c1d8f0b80d6a39c2100aa72086b1188c182ad3"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/mimic.py",
+      "bytes": 1173,
+      "sha256": "ef86cd303d58cb8d80a0288ffe97c18c8d35f49f119dd21cd755cdc0137e1bf2",
+      "normalized_text_sha256": "5efdc740c01e4d8f3115b875705224c3502e1756a94fb680e01dd491af2efaee"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/min.py",
+      "bytes": 3906,
+      "sha256": "49b7195195fe81d121544519d7fb877276b04b7e06222c2899c11c493ca3f11f",
+      "normalized_text_sha256": "42e79b7b9883da2150cebd489af7d9ab978b14bbe24bfd5e0256867165516e8b"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/modelreplacement.py",
+      "bytes": 3335,
+      "sha256": "349b7273694f97a494dfce8acde08d087f3746e14807da30cae17979896a0d42",
+      "normalized_text_sha256": "5b294cc82e69e54c84f8a6e48b47da22b308f7a83d9fce1268a219cc80e80ba6"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/neurotoxin.py",
+      "bytes": 5361,
+      "sha256": "9e32c5c48e5ecc51b0c8550442eb7328bcc86f5304bb20eb5938aafdc4c8378e",
+      "normalized_text_sha256": "922cbbe72f17fd86a207a07689d3627d4650b9900409f0c564fa27770f040a33"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/pbases/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "normalized_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/pbases/dpbase.py",
+      "bytes": 4368,
+      "sha256": "54dee6dc403613db4949128bdd8c18827cddc0709268964f144ace74d43fdb7d",
+      "normalized_text_sha256": "aaeefa403fa9455ba7374578307f1e2cde8a431610dab36be17413dc8403cb74"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/pbases/mpbase.py",
+      "bytes": 1090,
+      "sha256": "78023fa2466b5dc269de5c1171972175379f53ca950be87be081b4eba4afe2f2",
+      "normalized_text_sha256": "694dcd77bb7b3d398acc358145fef8fbf460184d46467f8195680da99a37a816"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/pbases/pbase.py",
+      "bytes": 880,
+      "sha256": "3e13446db8a0664bb88f9e2b3b354455d101e1df58631ad548f6f0ce58a1eb9f",
+      "normalized_text_sha256": "81ee986503825154c8591aec00f9fb7c89ae281d8073abf878064eb017d2f48e"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/signflipping.py",
+      "bytes": 674,
+      "sha256": "08a4042dc154dab6c4f966d3fd7923c3f5aa4f318b1711c7920d6f1b0634448a",
+      "normalized_text_sha256": "59bd0ea9ad4e5c89136a205f318716f7cf1c7e83d487bfcf8b8ec205960660f5"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/synthesizers/__init__.py",
+      "bytes": 294,
+      "sha256": "e6a5b84c1bb97f2dcecdda52b30a19a4c36e70f1a2af04bb65811d38c877a3ec",
+      "normalized_text_sha256": "e56f82c1aad842a50a7645a14288d4abd5ed1ea8e4179b879ffe6f10648ad74c"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/synthesizers/dataset_synthesizer.py",
+      "bytes": 798,
+      "sha256": "1c956b4e8612d0da8fd38aaeee9e5fd31767779c3dd2144906021813d27102c0",
+      "normalized_text_sha256": "a0301efceecd89ecda1a5b6df97b88f4b6a1502861a39eb5cd20dac5d7ea121c"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/synthesizers/image_synthesizer.py",
+      "bytes": 1748,
+      "sha256": "7e046fa89832a8c2f00814b0d6f1183642e2b16a7c50c84eb91fc51b8a064d9a",
+      "normalized_text_sha256": "1dc08f18c1c5bf82d418c07fe02addedb96aefccead7911b23e48213c36d4a1f"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/synthesizers/pixel_synthesizer.py",
+      "bytes": 1667,
+      "sha256": "2ab6dc8520fb2b9adbf24ce4987b1fb5bbf1affe893ba82545fe07433c9c8bb9",
+      "normalized_text_sha256": "ef4ee4fd67480e071b8767f50061a618a895c0e835c087df51d8277100efcda3"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/synthesizers/synthesizer.py",
+      "bytes": 4216,
+      "sha256": "cbdb2451277c59ebacfc91f1826811bf11f0c3a94e978d13036b71df19ce4360",
+      "normalized_text_sha256": "baf154827754191bc407bc5fa776e73e2424eb2e3d0f24f575a4ea0017abc76c"
+    },
+    {
+      "path": "vendor/FLPoison/attackers/threedfed.py",
+      "bytes": 9545,
+      "sha256": "2a2b2b4f5d50dbd85798c4d52c257a174ab731d44bde5749205998c903d84dbc",
+      "normalized_text_sha256": "fdfd480f20c775d7c9315fda5165a3733127ae9fa6eb1339bed7f866c74fc19a"
+    },
+    {
+      "path": "vendor/FLPoison/batchrun.py",
+      "bytes": 7498,
+      "sha256": "0555602d076b66976ba3d773b6d511d1c885969ba3b851b60ca150bcd486d439",
+      "normalized_text_sha256": "4803de21035ebb3efe744e1c3d9b42ac91baf1e9f88032cc778b203557680874"
+    },
+    {
+      "path": "vendor/FLPoison/configs/FedOpt_CIFAR10_config.yaml",
+      "bytes": 7346,
+      "sha256": "d23e2da113018df422650f57f4dd38b4e1769705d7e52603c27a5098b443dd17",
+      "normalized_text_sha256": "abc151ec2b6dfaf43810624c5bbdf8ef577a38f89653b1b7c7d9cb13facdc7c8"
+    },
+    {
+      "path": "vendor/FLPoison/configs/FedOpt_MNIST_config.yaml",
+      "bytes": 7403,
+      "sha256": "1cf789b08332304ae799e9ac4ceff30fb410d14a29dcf7cac97e7e85f4443efe",
+      "normalized_text_sha256": "fd0f1066d83dcae2570ef2a566716301f1d04e89b41e6582e7f75bd8110f55ef"
+    },
+    {
+      "path": "vendor/FLPoison/configs/FedSGD_CHMNIST_config.yaml",
+      "bytes": 7406,
+      "sha256": "f56759f375f68fcd594895a3017a9a044c66f926198e653ff6bd33e612af0ca1",
+      "normalized_text_sha256": "cdae02493b539ac6afc987411bd9f817c3ad5e3956ae8cf844edd71d8cb63912"
+    },
+    {
+      "path": "vendor/FLPoison/configs/FedSGD_CIFAR100_config.yaml",
+      "bytes": 7315,
+      "sha256": "87389650048c18749e1607ec783ed1e4fed1b4756394f11fed880560a84c5b5b",
+      "normalized_text_sha256": "48b47b4d92c3bd43b994092ae534cccc323c14401731bef7cd7b0f422501fc5f"
+    },
+    {
+      "path": "vendor/FLPoison/configs/FedSGD_CIFAR10_config.yaml",
+      "bytes": 7326,
+      "sha256": "ac3ac9037f10020beca1d11f5c7845b7e8a367109d1aa445f78a1d293abfc2e2",
+      "normalized_text_sha256": "a913a36392aa14845e8f23c07c19c0a10790e9d7c3091765f818bb9447d08a90"
+    },
+    {
+      "path": "vendor/FLPoison/configs/FedSGD_CINIC10_config.yaml",
+      "bytes": 7314,
+      "sha256": "2034f142fb8b107bd1308b5c4dec7af9b02466d4ee6022c206df983745e92961",
+      "normalized_text_sha256": "cf83613ef25e60bde5b088cb3adc8add1127ace17d31b3e40a2ac2f7162820ed"
+    },
+    {
+      "path": "vendor/FLPoison/configs/FedSGD_MNIST_config.yaml",
+      "bytes": 7876,
+      "sha256": "0956b7c6ba0b12e4485293e8d9bfd8db618c79802a4c2e072b641c00fad0c21a",
+      "normalized_text_sha256": "2e89f83ead75e6c5081396a772b9e369f9e57363b6f52d30a1554cde863079c3"
+    },
+    {
+      "path": "vendor/FLPoison/configs/FedSGD_TinyImageNet_config.yaml",
+      "bytes": 7510,
+      "sha256": "2147005be0e41917de126cfd93c14072d869e8e654ccdb042490405b6f345763",
+      "normalized_text_sha256": "f61e03004f77249a614980e55941e668030b3daa3e12b41e21727dc234bf03e8"
+    },
+    {
+      "path": "vendor/FLPoison/configs/dataset_config.yaml",
+      "bytes": 2557,
+      "sha256": "96fddf42a3ea94f9df3bf5f74135c7da033305ea2ff25de2fabbcd531a2629e3",
+      "normalized_text_sha256": "110e2e84598ceff0b66f603929724f24f98a4f51d17b5a0d8e26301a3aafc2cd"
+    },
+    {
+      "path": "vendor/FLPoison/configs/pilot_smoke_fashion.yaml",
+      "bytes": 931,
+      "sha256": "56f302bb8c7a74af4d191b981d1f97a88af01f4ed6472cb869be7dd4506fabb3",
+      "normalized_text_sha256": "56f302bb8c7a74af4d191b981d1f97a88af01f4ed6472cb869be7dd4506fabb3"
+    },
+    {
+      "path": "vendor/FLPoison/configs/stage10_cifar10_simplecnn.yaml",
+      "bytes": 936,
+      "sha256": "7aa1e0b0bcd2f646bd302339a6cf2b097f781f76310df539111023055d836b9c",
+      "normalized_text_sha256": "7aa1e0b0bcd2f646bd302339a6cf2b097f781f76310df539111023055d836b9c"
+    },
+    {
+      "path": "vendor/FLPoison/configs/template.yaml",
+      "bytes": 437,
+      "sha256": "9c0cca5db55ad106849482f8cc7d9c89ff8ffee454cc9487a0e8dfdc394a1076",
+      "normalized_text_sha256": "9c0cca5db55ad106849482f8cc7d9c89ff8ffee454cc9487a0e8dfdc394a1076"
+    },
+    {
+      "path": "vendor/FLPoison/configs/template_fedopt_cifar10.yaml",
+      "bytes": 443,
+      "sha256": "1034df40bed92a96470f43fcb74992b3daa846d78643916743479cf76f56d68c",
+      "normalized_text_sha256": "1034df40bed92a96470f43fcb74992b3daa846d78643916743479cf76f56d68c"
+    },
+    {
+      "path": "vendor/FLPoison/configs/template_fedopt_mnist.yaml",
+      "bytes": 437,
+      "sha256": "8b25a0967986c89cb4377d192f00015a98fb696b442c6054d9dd6be17ada8eb5",
+      "normalized_text_sha256": "8b25a0967986c89cb4377d192f00015a98fb696b442c6054d9dd6be17ada8eb5"
+    },
+    {
+      "path": "vendor/FLPoison/configs/template_fedsgd_cifar10.yaml",
+      "bytes": 443,
+      "sha256": "bbab6caed8263731bb8300b77d769d9072391f81dec41ee3dbc1e81582cd54b3",
+      "normalized_text_sha256": "bbab6caed8263731bb8300b77d769d9072391f81dec41ee3dbc1e81582cd54b3"
+    },
+    {
+      "path": "vendor/FLPoison/configs/template_fedsgd_cifar10_fast.yaml",
+      "bytes": 444,
+      "sha256": "9822e35d96171fd1f4da825f64a0fdceb53a0a435205d339ca477eb12071141c",
+      "normalized_text_sha256": "9822e35d96171fd1f4da825f64a0fdceb53a0a435205d339ca477eb12071141c"
+    },
+    {
+      "path": "vendor/FLPoison/configs/template_fedsgd_cifar10_fast_nocache.yaml",
+      "bytes": 740,
+      "sha256": "6959d5c4443407d0695e31bdfbebc894e16028814356be914d4e8ea5319a6baf",
+      "normalized_text_sha256": "6959d5c4443407d0695e31bdfbebc894e16028814356be914d4e8ea5319a6baf"
+    },
+    {
+      "path": "vendor/FLPoison/configs/template_fedsgd_cifar10_resnet18.yaml",
+      "bytes": 491,
+      "sha256": "131d709e5b48723eb420e0da25b3e8f131e4d6e0da281163230c504aacccdd21",
+      "normalized_text_sha256": "131d709e5b48723eb420e0da25b3e8f131e4d6e0da281163230c504aacccdd21"
+    },
+    {
+      "path": "vendor/FLPoison/configs/template_fedsgd_cifar10_resnet18_fast.yaml",
+      "bytes": 492,
+      "sha256": "a3865d0e6b5eadf9e786b93925a4b344cd7493409d22b1fa85dfc0d464bb956f",
+      "normalized_text_sha256": "a3865d0e6b5eadf9e786b93925a4b344cd7493409d22b1fa85dfc0d464bb956f"
+    },
+    {
+      "path": "vendor/FLPoison/configs/template_fedsgd_fashion_mnist.yaml",
+      "bytes": 444,
+      "sha256": "cccb3cd095c72c36eeefccc755fb7e66f24fc7cd522ba6d5e3c2c78252f67d0e",
+      "normalized_text_sha256": "cccb3cd095c72c36eeefccc755fb7e66f24fc7cd522ba6d5e3c2c78252f67d0e"
+    },
+    {
+      "path": "vendor/FLPoison/configs/template_fedsgd_mnist.yaml",
+      "bytes": 437,
+      "sha256": "a8cf583ee1936ec5f4e32d9e54d6cee2764a1cfe6296ed3a5bcdf0c90c5a362f",
+      "normalized_text_sha256": "a8cf583ee1936ec5f4e32d9e54d6cee2764a1cfe6296ed3a5bcdf0c90c5a362f"
+    },
+    {
+      "path": "vendor/FLPoison/configs/test_config.yaml",
+      "bytes": 414,
+      "sha256": "d52939cf8cf656083b72b8323444816228e475fa1ed0df6859ccb6309d3a7545",
+      "normalized_text_sha256": "d52939cf8cf656083b72b8323444816228e475fa1ed0df6859ccb6309d3a7545"
+    },
+    {
+      "path": "vendor/FLPoison/datapreprocessor/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "normalized_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendor/FLPoison/datapreprocessor/chmnist.py",
+      "bytes": 5235,
+      "sha256": "4051ea003c79db594fd3ce91e0912ee8ead4c8d2c46ce95e683a24aaed21da2c",
+      "normalized_text_sha256": "627065b2d63f63472359b351bb6d78211476dc5310dd109e1109cd75832c36aa"
+    },
+    {
+      "path": "vendor/FLPoison/datapreprocessor/cinic10.py",
+      "bytes": 3727,
+      "sha256": "72eb07c11295e8dc1ccc2de103fb54a12e6fca888b90f717507c1979b9aed016",
+      "normalized_text_sha256": "34f829135079e4884b710ffb00bdb207742573d23e44bfd5e7ab0b10d1bfd4cf"
+    },
+    {
+      "path": "vendor/FLPoison/datapreprocessor/data_utils.py",
+      "bytes": 14883,
+      "sha256": "b268e6452da940e82141a7b812283eb500102768d317ab8e2ca2af88f3238436",
+      "normalized_text_sha256": "fa8eb18bdf0ad9faa1ea5abdbf7c046b07a9c566ddc7a31c5da544bd9a8983f2"
+    },
+    {
+      "path": "vendor/FLPoison/datapreprocessor/edge_dataset.py",
+      "bytes": 12922,
+      "sha256": "5a2cb87f9fbfbfd282a5597fa1d850b8209646578a2afca118a4e2e049dea730",
+      "normalized_text_sha256": "1c236175d39fd05805a42578673a11826cdba1cf7e8aae917173f67230e0286f"
+    },
+    {
+      "path": "vendor/FLPoison/datapreprocessor/noniid_skew.py",
+      "bytes": 6511,
+      "sha256": "c598540c5b91e487e1636d3588eabcae89c82d211db29556112a22aea01349d5",
+      "normalized_text_sha256": "c598540c5b91e487e1636d3588eabcae89c82d211db29556112a22aea01349d5"
+    },
+    {
+      "path": "vendor/FLPoison/datapreprocessor/tinyimagenet.py",
+      "bytes": 5437,
+      "sha256": "32be40b875f1245a4820f59cdb947a7317bf88dfe99b4c550c01de0ba9af884f",
+      "normalized_text_sha256": "414cc33b6a2d48fbada9519b4b46f06ccc75f4ee61d8c506579b3b5a34de3056"
+    },
+    {
+      "path": "vendor/FLPoison/environment.yaml",
+      "bytes": 2027,
+      "sha256": "3fe77787250bcdad5b7285d900c06756a7895006d6ab5a61c6c759f7abe93544",
+      "normalized_text_sha256": "484a343402be0d8fe819f841101c5d84d06c34fb146397a672b4d7a7e074b7a5"
+    },
+    {
+      "path": "vendor/FLPoison/fl/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "normalized_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendor/FLPoison/fl/algorithms/__init__.py",
+      "bytes": 432,
+      "sha256": "1489252199f80c3b451acc126de87c027046e4baa00a0849cad02fe1fb2c0a65",
+      "normalized_text_sha256": "f873f317ce275081e5a59fca5028b1811a21fd822ad5d1482c61befc8037094f"
+    },
+    {
+      "path": "vendor/FLPoison/fl/algorithms/algorithmbase.py",
+      "bytes": 500,
+      "sha256": "806f672444a6947b8da77cf97ccc8b0941e28354c7287e93a73b019f6bc3278e",
+      "normalized_text_sha256": "e141ff676800ce56419e7edcbab0bbce4591504136cbacdd1fba456eabf9cabd"
+    },
+    {
+      "path": "vendor/FLPoison/fl/algorithms/fedavg.py",
+      "bytes": 696,
+      "sha256": "253d6b033676278cab13d8519d7dc5c5d2d5a0162eefb554d4aa97c6c1302515",
+      "normalized_text_sha256": "e52f126da3de14de33ecac9f27e8011f1796eb7316c9b9fd29dc969c1c03a5f4"
+    },
+    {
+      "path": "vendor/FLPoison/fl/algorithms/fedopt.py",
+      "bytes": 840,
+      "sha256": "f852e646c6420d4ad71e4a257ad4c68b59eec2d913fe771332411dac46b1a5b5",
+      "normalized_text_sha256": "42208379b1bb92ea888b744428422f19677226d330c86af55c1920c67af73697"
+    },
+    {
+      "path": "vendor/FLPoison/fl/algorithms/fedsgd.py",
+      "bytes": 864,
+      "sha256": "0e5d086250f1dd183af60098ec4ecbcb7ba95983376cb5789698ab7d75523bea",
+      "normalized_text_sha256": "accf200aab4036ac8e4a37ef891793c0c612becddcb91af635fe1885530a6b16"
+    },
+    {
+      "path": "vendor/FLPoison/fl/client.py",
+      "bytes": 4587,
+      "sha256": "050a39d544b74a2105e457b69190dc01f0562c108466566c61b8ef3ffb30f053",
+      "normalized_text_sha256": "4517aea4cd03899dd82f5f96961f6d31cc7fb6e8f24c1979485844c64a58f79b"
+    },
+    {
+      "path": "vendor/FLPoison/fl/coordinator.py",
+      "bytes": 4601,
+      "sha256": "8c4c6874918dc075546675d9fcd969cf224f0d730257ae64622481e017e35831",
+      "normalized_text_sha256": "c7429a9b82dbd2bd6abbb15031195843d26ebe47357dce81ecd226f1abba5302"
+    },
+    {
+      "path": "vendor/FLPoison/fl/models/__init__.py",
+      "bytes": 1778,
+      "sha256": "5516ddab835abb2ced5f38f393594706e755ea6099a4abaf0ea67791f19f1b0d",
+      "normalized_text_sha256": "fde20f5c5d577cbb621fa21237976930f723f6cee63a26c19902389f36de85de"
+    },
+    {
+      "path": "vendor/FLPoison/fl/models/lenet5.py",
+      "bytes": 2556,
+      "sha256": "85a5598bb03221c5056c21861a5cf8cded49a679605bcd3ad82e60faa2a64461",
+      "normalized_text_sha256": "850f1e5ee3157d427197720cc9ab569eb6f0a9f47a1bee174e326cab6068faf5"
+    },
+    {
+      "path": "vendor/FLPoison/fl/models/model_utils.py",
+      "bytes": 6804,
+      "sha256": "4f9b246b00874a4a875a6aebb2fbabda9f95698670fdacfcbe4af76a85230d30",
+      "normalized_text_sha256": "9b0262c276715f4f77da4c1f5bef5f4f8cf57d08c6928d6f95678aa695855fc0"
+    },
+    {
+      "path": "vendor/FLPoison/fl/models/regression.py",
+      "bytes": 602,
+      "sha256": "ea494316807b044affb07871f7e13701e75775b5f13fef31cd6f8ede9745bc2b",
+      "normalized_text_sha256": "c389b3205b43561355582b6b981243d77d86d0bb32f335ba5919ed4d5824ce0c"
+    },
+    {
+      "path": "vendor/FLPoison/fl/models/resnet.py",
+      "bytes": 4704,
+      "sha256": "9778c8d80d2a82e6aaac9f168b4cdb5ee7ba93c17cd006f4104d7b68033a967e",
+      "normalized_text_sha256": "eca3a03b076bc4aaedeebb5511b6ea5bcaeced6f742aadaccbc5c1b56143b23d"
+    },
+    {
+      "path": "vendor/FLPoison/fl/models/simplecnn.py",
+      "bytes": 2926,
+      "sha256": "0e0ad647690685d7e4b0687ad378facb11a1e1bb1c7d8cd0ee48e5ba2a900262",
+      "normalized_text_sha256": "0308070fe2621f995db9ba3db65e2f4c41f4f91da953f9acff5c4a7f0576760a"
+    },
+    {
+      "path": "vendor/FLPoison/fl/models/vgg.py",
+      "bytes": 460,
+      "sha256": "4bfa297ee0ed2774e9ad41f09f55a1174d9106527d11ecc300e63d7b971da478",
+      "normalized_text_sha256": "74eccdec2c37e6eeebf634046ad3ac217ce005cbb8d4047b853d2c54f65fa0d0"
+    },
+    {
+      "path": "vendor/FLPoison/fl/server.py",
+      "bytes": 3089,
+      "sha256": "0354c04c6db8d404a387b78e625fdd74626792509a8f3f1f2edf7c999d350730",
+      "normalized_text_sha256": "e158574423b3dfc8e214d98012840d1dd47c58308bc406ce8bde401c38ad624b"
+    },
+    {
+      "path": "vendor/FLPoison/fl/worker.py",
+      "bytes": 6224,
+      "sha256": "7cddb478508430126e38057e6b8b1e5c0920fa65ff25e9e7d5d56521937b17ac",
+      "normalized_text_sha256": "3c6a6e47ba31d00cc18408a0527e5a0dce977421ef906edbbfa1401134a66d03"
+    },
+    {
+      "path": "vendor/FLPoison/global_args.py",
+      "bytes": 12352,
+      "sha256": "68225f13517d1290969c4771dab63cdbc4c1da5e68f90b6daacdaec6a17ea1de",
+      "normalized_text_sha256": "4f5d53f9c2df57d20365da0a0505d3ebb3e07d920ac81044ad7d40a2483dfead"
+    },
+    {
+      "path": "vendor/FLPoison/global_utils.py",
+      "bytes": 6984,
+      "sha256": "5ead4233d5593788272e1f7da5b554ef82d4d367e08c1729b2f50892250b1867",
+      "normalized_text_sha256": "b0fdf018bac4317f0410004a1860c82d29d1c13243dec3bfac08bfd3f9eea0db"
+    },
+    {
+      "path": "vendor/FLPoison/gradient_instrument.py",
+      "bytes": 8214,
+      "sha256": "9318c027e3a0eaa83265ffc1356ff644c4974027c79048326ef91119f87282da",
+      "normalized_text_sha256": "9318c027e3a0eaa83265ffc1356ff644c4974027c79048326ef91119f87282da"
+    },
+    {
+      "path": "vendor/FLPoison/main.py",
+      "bytes": 8268,
+      "sha256": "d620f859b865c429b46aa239fdf10364c6668d606474ba5efc97b407d52fa218",
+      "normalized_text_sha256": "1c120bd2f811f521592b5e85c4d1b4afcd196e3476f9c0f3ec53b6f43f32292b"
+    },
+    {
+      "path": "vendor/FLPoison/plot_utils.py",
+      "bytes": 4030,
+      "sha256": "70a4860c48a4249f186726f3be9c3281d476ba5c50c5818ded51551f6e0146dd",
+      "normalized_text_sha256": "4678d02e621c1b78c16ecc810a3c7559c4be8fa6afddb5a76e3c7c35004dc27a"
+    },
+    {
+      "path": "vendor/FLPoison/system_heterogeneity.py",
+      "bytes": 5361,
+      "sha256": "1fee1d6d47df9cc44df35c78dc383bff129d77bc009abb9e45a92683e32047e6",
+      "normalized_text_sha256": "1fee1d6d47df9cc44df35c78dc383bff129d77bc009abb9e45a92683e32047e6"
+    }
+  ]
+}

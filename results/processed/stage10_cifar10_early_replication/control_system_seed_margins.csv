@@ -1,0 +1,13 @@
+system_seed,control,window,control_minus_euclidean_pp
+91001,cosine,primary_2-29,-1.666666666666669
+91001,cosine,secondary_30-59,-3.11111111111112
+91001,normalized_euclidean,primary_2-29,-1.1904761904761891
+91001,normalized_euclidean,secondary_30-59,-1.4444444444444475
+91002,cosine,primary_2-29,-15.357142857142854
+91002,cosine,secondary_30-59,-8.333333333333334
+91002,normalized_euclidean,primary_2-29,-12.499999999999995
+91002,normalized_euclidean,secondary_30-59,-9.0
+91003,cosine,primary_2-29,-17.857142857142858
+91003,cosine,secondary_30-59,-12.999999999999993
+91003,normalized_euclidean,primary_2-29,-21.309523809523803
+91003,normalized_euclidean,secondary_30-59,-15.111111111111109

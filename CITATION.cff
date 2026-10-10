@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this archive, please cite the article below. A Zenodo DOI for the archive itself can be added under 'identifiers' once minted."
+title: "Reproducibility archive for: When Logical Staleness Attracts - Training-stage and Assignment-dependent Selection Geometry of Multi-Krum under Non-IID Federated Learning"
+type: software
+authors:
+  - family-names: "Jiang"
+    given-names: "Lu"
+    affiliation: "School of Electronic and Optical Engineering, Nanjing University of Science and Technology, Nanjing, Jiangsu 210094, China"
+repository-code: "https://github.com/<USER>/<REPO>"
+url: "https://github.com/<USER>/<REPO>"
+license: MIT
+keywords:
+  - federated learning
+  - Byzantine-robust aggregation
+  - Multi-Krum
+  - non-IID data
+  - logical staleness
+  - selection geometry
+  - reproducibility
+abstract: >-
+  Audited processed evidence and analysis code for a controlled study of how
+  logical staleness and resource assignment shape honest-client selection under
+  Multi-Krum. The archive contains the resolved configurations, processed tables,
+  integrity ledgers, verification programs and figure-generation code for the
+  reported 15 Stage 8, 18 Stage 9 and 27 Stage 10 runs. Raw smoke, partial and
+  cached logs are excluded; project and user paths were replaced by portable
+  placeholders during de-identification. Original code is MIT licensed, original
+  data and documentation are CC BY 4.0, and the modified third-party files under
+  vendor/FLPoison remain GPL-2.0 as described in LICENSING.md.
+# Uncomment and fill in after minting a DOI on Zenodo:
+# identifiers:
+#   - type: doi
+#     value: "10.5281/zenodo.XXXXXXX"
+# preferred-citation:
+#   type: conference-paper
+#   title: "When Logical Staleness Attracts: Training-stage and Assignment-dependent Selection Geometry of Multi-Krum under Non-IID Federated Learning"
+#   authors:
+#     - family-names: "Jiang"
+#       given-names: "Lu"
+#   journal: "Proc. SPIE (CVML 2026)"
+#   year: 2026

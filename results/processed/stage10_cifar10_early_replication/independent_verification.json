@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "verified_cells": 27,
+  "verified_cell_windows": 54,
+  "max_absolute_error": 6.394884621840902e-14,
+  "all_learning_gates_passed": true,
+  "gate_parts": {
+    "all_learning_gates_passed": true,
+    "crossed_euclidean_at_least_5pp": true,
+    "euclidean_positive_each_system_seed": true,
+    "both_controls_negative_each_system_seed": true
+  },
+  "transfer_gate_pass": true
+}
